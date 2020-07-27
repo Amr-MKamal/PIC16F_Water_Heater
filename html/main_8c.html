@@ -91,8 +91,8 @@ $(document).ready(function(){initNavTree('main_8c.html',''); initResizable(); })
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;xc.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_m_c_a_l___p_i_c16_f8_8h_source.html">MCAL_PIC16F8.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_h_a_l___pic_genios_8h_source.html">HAL_PicGenios.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="m_c_a_l___p_i_c16_f8_8h_source.html">MCAL_PIC16F8.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="h_a_l___pic_genios_8h_source.html">HAL_PicGenios.h</a>&quot;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 </div>
 <p><a href="main_8c_source.html">Go to the source code of this file.</a></p>
@@ -127,7 +127,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a4c9d248ed079eb969150da3d4ea49296"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="main_8c.html#a5d74787dedbc4e11c1ab15bf487e61f8">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a4c9d248ed079eb969150da3d4ea49296">Cur_State</a> =<a class="el" href="_h_a_l___pic_genios_8h.html#ad76d1750a6cdeebd506bfcd6752554d2">ON</a></td></tr>
+<tr class="memitem:a4c9d248ed079eb969150da3d4ea49296"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="main_8c.html#a5d74787dedbc4e11c1ab15bf487e61f8">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a4c9d248ed079eb969150da3d4ea49296">Cur_State</a> =<a class="el" href="h_a_l___pic_genios_8h.html#ad76d1750a6cdeebd506bfcd6752554d2">ON</a></td></tr>
 <tr class="separator:a4c9d248ed079eb969150da3d4ea49296"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab211f023367cf931443a69cb41d39145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stdtypes_8h.html#ae081489b4906f65a3cb18e9fbe9f8d23">u8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ab211f023367cf931443a69cb41d39145">cyclicSecond_counter</a> =0</td></tr>
 <tr class="separator:ab211f023367cf931443a69cb41d39145"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,7 +254,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>void <a class="el" href="_h_a_l___pic_genios_8h.html#aed8fc22b67d0e786989a472891cd3271">second_update(void)</a> Description: a function containing the tasks that is repeated every 1 second : if the heater is on the heater led blinks if current state is setting count to 5 second from each click &amp; blink the 7seg Input Value: void Return Value: void </p>
+<p>void <a class="el" href="h_a_l___pic_genios_8h.html#aed8fc22b67d0e786989a472891cd3271">second_update(void)</a> Description: a function containing the tasks that is repeated every 1 second : if the heater is on the heater led blinks if current state is setting count to 5 second from each click &amp; blink the 7seg Input Value: void Return Value: void </p>
 
 <p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00084">84</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
@@ -275,7 +275,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>void <a class="el" href="_h_a_l___pic_genios_8h.html#aa2ef228225eed360791936ea81a8d6ff">Start_stop(void)</a> Description: a function containing the tasks that is called when INTP0 reintializes the 7seg and systemclk , change the current state of the while loop to on shuts down the 7seg display , changes the current state to off Input Value: void Return Value: void Notes:this function is called by an interruput handler </p>
+<p>void <a class="el" href="h_a_l___pic_genios_8h.html#aa2ef228225eed360791936ea81a8d6ff">Start_stop(void)</a> Description: a function containing the tasks that is called when INTP0 reintializes the 7seg and systemclk , change the current state of the while loop to on shuts down the 7seg display , changes the current state to off Input Value: void Return Value: void Notes:this function is called by an interruput handler </p>
 
 <p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00095">95</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
@@ -296,7 +296,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>void <a class="el" href="_h_a_l___pic_genios_8h.html#af010fea9b1aaa248c779a52745b2a32d">update_heater(void)</a> Description: a function containing the tasks that is repeated every 100 ms : updates tempreture table with a new read if current state is on take a decision to control fan &amp; heater the function spaces it's reads between 100 ms delay and changes the main control cycle of the program to 0.1 second Input Value: void Return Value: void Notes:this function is called by an interruput handler </p>
+<p>void <a class="el" href="h_a_l___pic_genios_8h.html#af010fea9b1aaa248c779a52745b2a32d">update_heater(void)</a> Description: a function containing the tasks that is repeated every 100 ms : updates tempreture table with a new read if current state is on take a decision to control fan &amp; heater the function spaces it's reads between 100 ms delay and changes the main control cycle of the program to 0.1 second Input Value: void Return Value: void Notes:this function is called by an interruput handler </p>
 
 <p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00062">62</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
@@ -326,7 +326,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="main_8c.html#a5d74787dedbc4e11c1ab15bf487e61f8">State</a> Cur_State =<a class="el" href="_h_a_l___pic_genios_8h.html#ad76d1750a6cdeebd506bfcd6752554d2">ON</a></td>
+          <td class="memname">enum <a class="el" href="main_8c.html#a5d74787dedbc4e11c1ab15bf487e61f8">State</a> Cur_State =<a class="el" href="h_a_l___pic_genios_8h.html#ad76d1750a6cdeebd506bfcd6752554d2">ON</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
