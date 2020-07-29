@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+## Welcome to PIC16F8_Water Heater 
 
-You can use the [editor on GitHub](https://github.com/Amr-MKamal/PIC16F_Water_Heater-/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Amr-MKamal/PIC16F_Water_Heater-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This project was designed as part of the process to apply for an internship to SwiftAct , this project maybe consider educational , the MCAL developed can be extended to cover all functionality of the used PIC family , the HAL was developed around the Picgenios board & and the application , This project was meant to be used as an educational tool to better understand how the actual embedded software cycle works , please read all the [documentations](https://amr-mkamal.github.io/PIC16F_Water_Heater/html/index.html
+)
+The documentation used in this project are called class documentation which follows a (gnu like library documentation). Please Refer to Design Documentation for more . Kindly refer to PIC Datasheet . Picgnios Manual , and embedded design patterns to better understand the project . Note: All current aspects of the project is done without any testing , shortly this project is missing :Testing Plans & Cases & Documents ( it's planned to apply ISTQB knowledge on this project, you can help )
